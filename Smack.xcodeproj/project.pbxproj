@@ -20,6 +20,7 @@
 		DEA7085F1F8F0D4400F0EC06 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA7085E1F8F0D4400F0EC06 /* ChatVC.swift */; };
 		DEA708611F8F0D5300F0EC06 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA708601F8F0D5300F0EC06 /* ChannelVC.swift */; };
 		DEA708621F8F110D00F0EC06 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81C4E71F8DB20C00674274 /* SWRevealViewController.m */; };
+		DEAD2F631F96CF3400BBE5EF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD2F621F96CF3400BBE5EF /* AuthService.swift */; };
 		DED0069D1F91695A0015A1C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0069C1F91695A0015A1C1 /* Constants.swift */; };
 		DED0069F1F9170300015A1C1 /* temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0069E1F9170300015A1C1 /* temp.swift */; };
 		DED006A11F9170680015A1C1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED006A01F9170680015A1C1 /* LoginVC.swift */; };
@@ -72,6 +73,7 @@
 		DE81C4E71F8DB20C00674274 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DEA7085E1F8F0D4400F0EC06 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		DEA708601F8F0D5300F0EC06 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		DEAD2F621F96CF3400BBE5EF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		DED0069C1F91695A0015A1C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DED0069E1F9170300015A1C1 /* temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = temp.swift; path = Smack/Utilities/temp.swift; sourceTree = SOURCE_ROOT; };
 		DED006A01F9170680015A1C1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		DE81C4B51F8DA91200674274 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				DEAD2F611F96CF1700BBE5EF /* Services */,
 				DED0069B1F9169440015A1C1 /* Utilities */,
 				DEA7085D1F8F0D1900F0EC06 /* Model */,
 				DEA7085C1F8F0D1300F0EC06 /* View */,
@@ -210,6 +213,14 @@
 				DED0069E1F9170300015A1C1 /* temp.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DEAD2F611F96CF1700BBE5EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DEAD2F621F96CF3400BBE5EF /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		DED0069B1F9169440015A1C1 /* Utilities */ = {
@@ -519,6 +530,7 @@
 				DE81C4B71F8DA91200674274 /* AppDelegate.swift in Sources */,
 				DE4E10531F92F4C100F792AC /* CreateAccountVC.swift in Sources */,
 				DEA708621F8F110D00F0EC06 /* SWRevealViewController.m in Sources */,
+				DEAD2F631F96CF3400BBE5EF /* AuthService.swift in Sources */,
 				DED0069F1F9170300015A1C1 /* temp.swift in Sources */,
 				DED0069D1F91695A0015A1C1 /* Constants.swift in Sources */,
 			);
