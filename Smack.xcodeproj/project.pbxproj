@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		39646BFB97E889A826C9F0B6 /* Pods_SmackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D93561179DBD3D4D6B47191 /* Pods_SmackUITests.framework */; };
 		B221ECB9C6B53FBC17862D8E /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BBE1C318E97A7AA0F6B9F2 /* Pods_Smack.framework */; };
+		DE05E3941FB2A0DA00A41775 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05E3931FB2A0DA00A41775 /* UserDataService.swift */; };
 		DE4E10531F92F4C100F792AC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4E10521F92F4C100F792AC /* CreateAccountVC.swift */; };
 		DE6411731F90586F00089735 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6411721F90586F00089735 /* GradientView.swift */; };
 		DE81C4B71F8DA91200674274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81C4B61F8DA91200674274 /* AppDelegate.swift */; };
@@ -55,6 +56,7 @@
 		B7847D7B8CD56E58B0B6DB23 /* Pods_SmackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BBE1C318E97A7AA0F6B9F2 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D752A4254DB020CC67B6D427 /* Pods-SmackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackUITests/Pods-SmackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE05E3931FB2A0DA00A41775 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		DE4E10521F92F4C100F792AC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		DE6411721F90586F00089735 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DE81C4B31F8DA91200674274 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				DEAD2F621F96CF3400BBE5EF /* AuthService.swift */,
+				DE05E3931FB2A0DA00A41775 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				DE6411731F90586F00089735 /* GradientView.swift in Sources */,
 				DE81C4B71F8DA91200674274 /* AppDelegate.swift in Sources */,
 				DE4E10531F92F4C100F792AC /* CreateAccountVC.swift in Sources */,
+				DE05E3941FB2A0DA00A41775 /* UserDataService.swift in Sources */,
 				DEAD2F651F96D99900BBE5EF /* RoundedButton.swift in Sources */,
 				DEA708621F8F110D00F0EC06 /* SWRevealViewController.m in Sources */,
 				DEAD2F631F96CF3400BBE5EF /* AuthService.swift in Sources */,
