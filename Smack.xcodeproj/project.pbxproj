@@ -10,6 +10,8 @@
 		39646BFB97E889A826C9F0B6 /* Pods_SmackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D93561179DBD3D4D6B47191 /* Pods_SmackUITests.framework */; };
 		B221ECB9C6B53FBC17862D8E /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BBE1C318E97A7AA0F6B9F2 /* Pods_Smack.framework */; };
 		DE05E3941FB2A0DA00A41775 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE05E3931FB2A0DA00A41775 /* UserDataService.swift */; };
+		DE0A25731FB3E1A3005CC671 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A25721FB3E1A3005CC671 /* AvatarPickerVC.swift */; };
+		DE0A25751FB52923005CC671 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0A25741FB52923005CC671 /* AvatarCell.swift */; };
 		DE4E10531F92F4C100F792AC /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4E10521F92F4C100F792AC /* CreateAccountVC.swift */; };
 		DE6411731F90586F00089735 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6411721F90586F00089735 /* GradientView.swift */; };
 		DE81C4B71F8DA91200674274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE81C4B61F8DA91200674274 /* AppDelegate.swift */; };
@@ -57,6 +59,8 @@
 		B7BBE1C318E97A7AA0F6B9F2 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D752A4254DB020CC67B6D427 /* Pods-SmackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackUITests/Pods-SmackUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE05E3931FB2A0DA00A41775 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		DE0A25721FB3E1A3005CC671 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		DE0A25741FB52923005CC671 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		DE4E10521F92F4C100F792AC /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		DE6411721F90586F00089735 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DE81C4B31F8DA91200674274 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +203,7 @@
 				DEA708601F8F0D5300F0EC06 /* ChannelVC.swift */,
 				DED006A01F9170680015A1C1 /* LoginVC.swift */,
 				DE4E10521F92F4C100F792AC /* CreateAccountVC.swift */,
+				DE0A25721FB3E1A3005CC671 /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			children = (
 				DE6411721F90586F00089735 /* GradientView.swift */,
 				DEAD2F641F96D99900BBE5EF /* RoundedButton.swift */,
+				DE0A25741FB52923005CC671 /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -531,6 +537,7 @@
 			files = (
 				DEA7085F1F8F0D4400F0EC06 /* ChatVC.swift in Sources */,
 				DEA708611F8F0D5300F0EC06 /* ChannelVC.swift in Sources */,
+				DE0A25751FB52923005CC671 /* AvatarCell.swift in Sources */,
 				DED006A11F9170680015A1C1 /* LoginVC.swift in Sources */,
 				DE6411731F90586F00089735 /* GradientView.swift in Sources */,
 				DE81C4B71F8DA91200674274 /* AppDelegate.swift in Sources */,
@@ -541,6 +548,7 @@
 				DEAD2F631F96CF3400BBE5EF /* AuthService.swift in Sources */,
 				DED0069F1F9170300015A1C1 /* temp.swift in Sources */,
 				DED0069D1F91695A0015A1C1 /* Constants.swift in Sources */,
+				DE0A25731FB3E1A3005CC671 /* AvatarPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
